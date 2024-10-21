@@ -1,0 +1,27 @@
+﻿<Window x:Class="CircleApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Circle App" Height="450" Width="900">
+    <Grid>
+        <StackPanel Margin="10">
+            <Button Content="Ввести данные" Click="Input_Click" Width="150" Margin="0,0,0,10"/>
+            <Button Content="Рассчитать" Click="Calc_Click" Width="150" Margin="0,0,0,10"/>
+            <Button Content="нарисовать круг" Click="Draw_Click" Width="150" Margin="0,0,0,10"/>
+            <Button Content="Выход" Click="Exit_Click" Width="150" Margin="0,0,0,10"/>
+
+            <Popup x:Name="InputDialogPopup" StaysOpen="False" AllowsTransparency="True">
+                <Border BorderBrush="Black" BorderThickness="1" Background="White" Padding="10">
+                    <StackPanel>
+                        <Label Content="Radius:"/>
+                        <TextBox x:Name="radiusTextBox" Width="100"/>
+                        <CheckBox x:Name="squareCheckBox" Content="Square" IsChecked="False"/>
+                        <CheckBox x:Name="lengthCheckBox" Content="Length" IsChecked="False"/>
+                        <Button Content="OK" Click="OK_Click" Width="75"/>
+                        <Button Content="Cancel" Click="Cancel_Click" Width="75"/>
+                    </StackPanel>
+                </Border>
+            </Popup>
+            <Canvas x:Name="DrawingCanvas" Background="LightGray" Height="275" Margin="0,0,400,0" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,5 @@
+D:\gostev\individual\Individual_variant-4-6\Individual_variant-4-6\obj\Debug\Individual_variant-4-6.csproj.AssemblyReference.cache
+D:\gostev\individual\Individual_variant-4-6\Individual_variant-4-6\obj\Debug\MainWindow.g.cs
+D:\gostev\individual\Individual_variant-4-6\Individual_variant-4-6\obj\Debug\App.g.cs
+D:\gostev\individual\Individual_variant-4-6\Individual_variant-4-6\obj\Debug\Individual_variant-4-6_MarkupCompile.cache
+D:\gostev\individual\Individual_variant-4-6\Individual_variant-4-6\obj\Debug\Individual_variant-4-6_MarkupCompile.lref
